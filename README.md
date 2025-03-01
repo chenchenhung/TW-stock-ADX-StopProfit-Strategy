@@ -4,6 +4,7 @@ Overview
 This repository contains a Python implementation of an enhanced ADX trading strategy that integrates a trailing take-profit mechanism. The strategy dynamically adapts to market conditions based on the Average Directional Index (ADX) and utilizes different approaches for trending and ranging markets.
 
 Strategy Logic
+
 1. Trend-Following (Moving Average Crossover) – When ADX > 25
 If the market is strongly trending, a moving average crossover strategy is used.
 A 20-day short-term moving average is compared with a 50-day long-term moving average to generate trading signals:
