@@ -57,8 +57,8 @@ ADX < 20	Bollinger Bands (with trailing take-profit)
 20 ≤ ADX ≤ 25	Hold Previous Position
 
 Conclusion
-This enhanced ADX strategy adapts to both trending and ranging markets, while introducing a trailing take-profit feature to optimize profits.
 
+This enhanced ADX strategy adapts to both trending and ranging markets, while introducing a trailing take-profit feature to optimize profits.
 ✅ Trending Market → Moving Average Crossover
 ✅ Ranging Market → Bollinger Bands with Trailing Take-Profit
 ✅ Adaptive Stop-Loss to Secure Profits
