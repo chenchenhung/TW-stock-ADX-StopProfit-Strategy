@@ -4,7 +4,6 @@ Overview
 This repository contains a Python implementation of an enhanced ADX trading strategy that integrates a trailing take-profit mechanism. The strategy dynamically adapts to market conditions based on the Average Directional Index (ADX) and utilizes different approaches for trending and ranging markets.
 
 Strategy Logic
-
 1. Trend-Following (Moving Average Crossover) – When ADX > 25
 If the market is strongly trending, a moving average crossover strategy is used.
 A 20-day short-term moving average is compared with a 50-day long-term moving average to generate trading signals:
@@ -28,7 +27,7 @@ Features
 ✅ Trailing Take-Profit Mechanism: Uses a dynamic stop-loss update when the price crosses the middle Bollinger Band.
 ✅ Performance Simulation: Computes daily and cumulative returns for strategy evaluation.
 ✅ Visualization: Generates plots showing price movements, technical indicators, trade signals, and cumulative returns.
-============================================================
+
 Requirements
 Ensure you have the following dependencies installed:
 Python 3.x
@@ -37,7 +36,6 @@ numpy
 matplotlib
 yfinance
 
-============================================================
 Tek Details:
 1. ADX Indicator
 The 14-day ADX (Average Directional Index) is used to measure trend strength:
@@ -57,7 +55,7 @@ ADX Indicator	Strategy Used
 ADX > 25	Moving Average Crossover
 ADX < 20	Bollinger Bands (with trailing take-profit)
 20 ≤ ADX ≤ 25	Hold Previous Position
-===================================================================
+
 Conclusion
 This enhanced ADX strategy adapts to both trending and ranging markets, while introducing a trailing take-profit feature to optimize profits.
 
@@ -70,7 +68,7 @@ Best Use Cases
 ✔ Taiwan Stock Index Futures & ETF Trading (e.g., 0050.TW)
 ✔ Mid-term trend trading & mean reversion strategies
 ✔ Can be adapted to other markets (US indices, crypto, etc.)
-============================================================================
+
 Disclaimer
 This project is for educational and research purposes only and does not constitute financial advice. Trading involves risks, and past performance does not guarantee future results.
 
