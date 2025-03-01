@@ -11,6 +11,12 @@ A 20-day short-term moving average is compared with a 50-day long-term moving av
 Buy (+1) when the short MA crosses above the long MA.
 Sell (-1) when the short MA crosses below the long MA.
 
+1. Trend-Following (Moving Average Crossover) – When ADX > 25
+If the market is strongly trending, a moving average crossover strategy is used.
+A 20-day short-term moving average is compared with a 50-day long-term moving average to generate trading signals:
+Buy (+1) when the short MA crosses above the long MA.
+Sell (-1) when the short MA crosses below the long MA.
+
 2️. Mean Reversion (Bollinger Bands) – When ADX < 20
 If the market is ranging, a Bollinger Bands mean reversion strategy is applied:
 Buy (+1) when the price nears the lower Bollinger Band.
