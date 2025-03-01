@@ -20,13 +20,14 @@ If the price crosses the middle Bollinger Band, the stop-loss is moved to the mi
 3️. Supports Long and Short Positions
 This strategy is designed for futures trading, allowing for both long and short positions.
 It computes daily returns and cumulative returns over a 25-year period (2000-2025).
+
 Features
-a.Data Source: Fetches Taiwan Stock Index (^TWII) data from Yahoo Finance using yfinance.
-b.echnical Indicator Calculations: Implements ADX, Moving Averages, and Bollinger Bands.
-c.Dynamic Strategy Selection: Automatically switches between trend-following and mean reversion strategies based on ADX values.
-d.Trailing Take-Profit Mechanism: Uses a dynamic stop-loss update when the price crosses the middle Bollinger Band.
-e.Performance Simulation: Computes daily and cumulative returns for strategy evaluation.
-f.Visualization: Generates plots showing price movements, technical indicators, trade signals, and cumulative returns.
+1.Data Source: Fetches Taiwan Stock Index (^TWII) data from Yahoo Finance using yfinance.
+2.echnical Indicator Calculations: Implements ADX, Moving Averages, and Bollinger Bands.
+3.Dynamic Strategy Selection: Automatically switches between trend-following and mean reversion strategies based on ADX values.
+4.railing Take-Profit Mechanism: Uses a dynamic stop-loss update when the price crosses the middle Bollinger Band.
+5.Performance Simulation: Computes daily and cumulative returns for strategy evaluation.
+6.Visualization: Generates plots showing price movements, technical indicators, trade signals, and cumulative returns.
 
 Requirements
 Ensure you have the following dependencies installed:
