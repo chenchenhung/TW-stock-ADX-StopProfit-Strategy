@@ -28,7 +28,7 @@ Features
 ✅ Trailing Take-Profit Mechanism: Uses a dynamic stop-loss update when the price crosses the middle Bollinger Band.
 ✅ Performance Simulation: Computes daily and cumulative returns for strategy evaluation.
 ✅ Visualization: Generates plots showing price movements, technical indicators, trade signals, and cumulative returns.
-
+============================================================
 Requirements
 Ensure you have the following dependencies installed:
 Python 3.x
@@ -36,6 +36,7 @@ pandas
 numpy
 matplotlib
 yfinance
+
 ============================================================
 Tek Details:
 1. ADX Indicator
