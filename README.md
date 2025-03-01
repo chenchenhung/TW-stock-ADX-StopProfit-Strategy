@@ -5,20 +5,20 @@ This repository contains a Python implementation of an enhanced ADX trading stra
 
 Strategy Logic
 
-1.Trend-Following (Moving Average Crossover) – When ADX > 25
+1. Trend-Following (Moving Average Crossover) – When ADX > 25
 If the market is strongly trending, a moving average crossover strategy is used.
 A 20-day short-term moving average is compared with a 50-day long-term moving average to generate trading signals:
 Buy (+1) when the short MA crosses above the long MA.
 Sell (-1) when the short MA crosses below the long MA.
 
-2️.Mean Reversion (Bollinger Bands) – When ADX < 20
+2️. Mean Reversion (Bollinger Bands) – When ADX < 20
 If the market is ranging, a Bollinger Bands mean reversion strategy is applied:
 Buy (+1) when the price nears the lower Bollinger Band.
 Sell (-1) when the price nears the upper Bollinger Band.
 New Feature: Trailing Take-Profit
 If the price crosses the middle Bollinger Band, the stop-loss is moved to the midpoint between the entry price and the middle band, locking in potential profits while allowing for further upside.
 
-3️.Supports Long and Short Positions
+3️. Supports Long and Short Positions
 This strategy is designed for futures trading, allowing for both long and short positions.
 It computes daily returns and cumulative returns over a 25-year period (2000-2025).
 Features
