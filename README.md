@@ -51,7 +51,7 @@ Uses Bollinger Bands (20-day moving average ± 2 standard deviations):
 Buy (+1) when price nears the lower Bollinger Band.
 Sell (-1) when price nears the upper Bollinger Band.
 If price crosses the middle band, the stop-loss is moved to the midpoint between the entry price and the middle band.
-📌 4. Trading Signal Selection
+4. Trading Signal Selection
 ADX Indicator	Strategy Used
 ADX > 25	Moving Average Crossover
 ADX < 20	Bollinger Bands (with trailing take-profit)
@@ -60,10 +60,10 @@ ADX < 20	Bollinger Bands (with trailing take-profit)
 Conclusion
 
 This enhanced ADX strategy adapts to both trending and ranging markets, while introducing a trailing take-profit feature to optimize profits.
-✅ Trending Market → Moving Average Crossover
-✅ Ranging Market → Bollinger Bands with Trailing Take-Profit
-✅ Adaptive Stop-Loss to Secure Profits
-✅ Fully Automated Trading Strategy with Performance Tracking
+1. Trending Market → Moving Average Crossover
+2. Ranging Market → Bollinger Bands with Trailing Take-Profit
+3. Adaptive Stop-Loss to Secure Profits
+4. Fully Automated Trading Strategy with Performance Tracking
 
 Best Use Cases
 ✔ Taiwan Stock Index Futures & ETF Trading (e.g., 0050.TW)
